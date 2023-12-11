@@ -1,0 +1,209 @@
+/* montserrat-regular - cyrillic_latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat-v26-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-600 - cyrillic_latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/montserrat-v26-cyrillic_latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body{
+    margin-left: 17px;
+}
+
+input{
+    text-indent: 24px;
+}
+
+.page
+{
+
+    width: 1440px;
+    height: 610px;
+    background-color: white;
+}
+
+.page_block
+{
+    width: 692px;
+    height: 568px;
+}
+
+
+.page_title_data
+{
+    color: #424242;
+    font-family: Montserrat, serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 30px;
+
+}
+
+.fio_text
+{
+    width: 220px;
+    height: 50px;
+    border-radius: 25px;
+    border: solid 1px rgba(189, 189, 189, 1);
+    color: #BDBDBD;
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+}
+
+.number
+{
+    margin-top: 15px;
+    width: 220px;
+    height: 50px;
+    border-radius: 25px;
+    border: solid 1px rgba(189, 189, 189, 1);
+    color: #BDBDBD;
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.under_text
+{
+    margin-top: 15px;
+    color: rgba(66, 66, 66, 1);
+    color: #424242;
+    font-family: Montserrat, serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.email {
+    margin-top: 15px;
+    width: 456px;
+    height: 50px;
+    border-radius: 25px;
+    border: solid 1px rgba(189, 189, 189, 1);
+    color: #BDBDBD;
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sub
+{
+    margin-top: 25px;
+}
+
+.sub input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+}
+
+.sub a::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #976464;
+    border-radius: 3px;
+    margin-right: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sub input[type="checkbox"]:checked + a::before {
+    background-image: url("../svg/4.svg");
+    border: 1px solid #976464;
+}
+
+.sub_text{
+    color: #424242;
+    font-family: Montserrat, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.page_title_cash
+{
+    color: #424242;
+    font-family: Montserrat, serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 50px;
+}
+
+
+
+.radio_btn1
+{
+    margin-bottom: 10px;
+}
+
+.text_after_btn
+{
+    color: #424242;
+    font-family: Montserrat, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.radio_btn1 input[type="radio"] {
+    display: none;
+}
+
+.radio_btn1 input[type="radio"] + label {
+    position: relative;
+    display: flex;
+    padding-left: 30px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+.radio_btn1 input[type="radio"] + label::before {
+    content: "";
+    position: absolute;
+    display: flex;
+    width: 31px;
+    height: 31px;
+    left: -5px;
+    top: 10px;
+    border-radius: 50%;
+    border: 1px solid #976464;
+}
+
+.radio_btn1 input[type="radio"]:checked + label::before {
+    display: flex;
+    background-image: url("../svg/ellipse14.svg");
+    background-size: 19px 19px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #976464;
+}
+
+
+
